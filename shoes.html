@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - StepStyle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>StepStyle</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shoes.html" class="nav-link active">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Collections</h1>
+            <p>Discover our complete range of premium footwear</p>
+        </div>
+    </section>
+
+    <section class="collection-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-category="all">All Collections</button>
+                <button class="filter-tab" data-category="classic">Classic</button>
+                <button class="filter-tab" data-category="boots">Luxury Boots</button>
+                <button class="filter-tab" data-category="casual">Casual</button>
+                <button class="filter-tab" data-category="formal">Formal</button>
+                <button class="filter-tab" data-category="limited">Limited Edition</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="classic" class="collection-section" data-category="classic">
+        <div class="container">
+            <div class="collection-header">
+                <h2>Classic Collection</h2>
+                <p>Timeless designs that never go out of style</p>
+            </div>
+            <div class="shoes-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Classic Oxford">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Classic Oxford</h3>
+                        <p class="price">$299.99</p>
+                        <a href="shoe-detail.html?id=1" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Derby Shoe">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Derby Shoe</h3>
+                        <p class="price">$279.99</p>
+                        <a href="shoe-detail.html?id=2" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Brogue Shoe">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Brogue Shoe</h3>
+                        <p class="price">$319.99</p>
+                        <a href="shoe-detail.html?id=3" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="boots" class="collection-section" data-category="boots">
+        <div class="container">
+            <div class="collection-header">
+                <h2>Luxury Boots</h2>
+                <p>Sophisticated designs for the modern connoisseur</p>
+            </div>
+            <div class="shoes-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Chelsea Boot">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Chelsea Boot</h3>
+                        <p class="price">$399.99</p>
+                        <a href="shoe-detail.html?id=4" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Chukka Boot">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Chukka Boot</h3>
+                        <p class="price">$349.99</p>
+                        <a href="shoe-detail.html?id=5" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Lace-up Boot">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Lace-up Boot</h3>
+                        <p class="price">$449.99</p>
+                        <a href="shoe-detail.html?id=6" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="casual" class="collection-section" data-category="casual">
+        <div class="container">
+            <div class="collection-header">
+                <h2>Casual Collection</h2>
+                <p>Comfort meets style for everyday elegance</p>
+            </div>
+            <div class="shoes-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Loafers">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Premium Loafers</h3>
+                        <p class="price">$199.99</p>
+                        <a href="shoe-detail.html?id=7" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sneakers">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Luxury Sneakers</h3>
+                        <p class="price">$179.99</p>
+                        <a href="shoe-detail.html?id=8" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Mules">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Slip-on Mules</h3>
+                        <p class="price">$159.99</p>
+                        <a href="shoe-detail.html?id=9" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formal" class="collection-section" data-category="formal">
+        <div class="container">
+            <div class="collection-header">
+                <h2>Formal Collection</h2>
+                <p>Elegant designs for special occasions</p>
+            </div>
+            <div class="shoes-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Patent Oxford">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Patent Oxford</h3>
+                        <p class="price">$499.99</p>
+                        <a href="shoe-detail.html?id=10" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Formal Derby">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Formal Derby</h3>
+                        <p class="price">$449.99</p>
+                        <a href="shoe-detail.html?id=11" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Evening Shoe">
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Evening Shoe</h3>
+                        <p class="price">$599.99</p>
+                        <a href="shoe-detail.html?id=12" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="limited" class="collection-section" data-category="limited">
+        <div class="container">
+            <div class="collection-header">
+                <h2>Limited Edition</h2>
+                <p>Exclusive pieces for the discerning collector</p>
+            </div>
+            <div class="shoes-grid">
+                <div class="shoe-card limited">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Heritage Edition">
+                        <div class="limited-badge">Limited</div>
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Heritage Edition</h3>
+                        <p class="price">$1,299.99</p>
+                        <a href="shoe-detail.html?id=13" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card limited">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Artisan Series">
+                        <div class="limited-badge">Limited</div>
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Artisan Series</h3>
+                        <p class="price">$999.99</p>
+                        <a href="shoe-detail.html?id=14" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="shoe-card limited">
+                    <div class="shoe-image">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Collector's Edition">
+                        <div class="limited-badge">Limited</div>
+                    </div>
+                    <div class="shoe-info">
+                        <h3>Collector's Edition</h3>
+                        <p class="price">$1,599.99</p>
+                        <a href="shoe-detail.html?id=15" class="more-info-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="size-guide-section">
+        <div class="container">
+            <div class="size-guide-content">
+                <h2>Find Your Perfect Fit</h2>
+                <p>Our comprehensive size guide ensures you get the perfect fit every time.</p>
+                <a href="onProgress.html" class="size-guide-btn">Size Guide</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StepStyle</h3>
+                    <p>Since 1987, crafting the world's most exquisite footwear with uncompromising attention to detail and timeless Italian artistry.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="shoes.html#classic">Classic Collection</a></li>
+                        <li><a href="shoes.html#boots">Luxury Boots</a></li>
+                        <li><a href="shoes.html#casual">Casual Collection</a></li>
+                        <li><a href="shoes.html#formal">Formal Collection</a></li>
+                        <li><a href="shoes.html#limited">Limited Edition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#heritage">Our Heritage</a></li>
+                        <li><a href="about.html#sustainability">Sustainability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="onProgress.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="onProgress.html">Size Guide</a></li>
+                        <li><a href="onProgress.html">Care Instructions</a></li>
+                        <li><a href="onProgress.html">Shipping & Returns</a></li>
+                        <li><a href="onProgress.html">Warranty</a></li>
+                        <li><a href="onProgress.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2026 StepStyle. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="onProgress.html">Privacy Policy</a>
+                        <a href="onProgress.html">Terms of Service</a>
+                        <a href="onProgress.html">Cookie Policy</a>
+                    </div>
+                </div>
+                <div class="footer-crafted">
+                    <p>Crafted by <a href="https://github.com/SVishal111" target="_blank">SVishal111</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

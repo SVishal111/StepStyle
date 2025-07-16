@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - StepStyle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>StepStyle</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shoes.html" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help with any questions or concerns</p>
+        </div>
+    </section>
+
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone Support</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <span>Monday - Friday: 9AM - 6PM EST</span>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Support</h3>
+                    <p>support@stepstyle.com</p>
+                    <span>Response within 24 hours</span>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Live Chat</h3>
+                    <p>Available 24/7</p>
+                    <span>Chat with our experts</span>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Headquarters</h3>
+                    <p>Via della Moda, 123</p>
+                    <span>Milan, Italy 20121</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>Get in Touch</h2>
+                    <p>Have a question about our products, need assistance with an order, or want to share feedback? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure & Private</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-reply"></i>
+                            <span>Quick Response</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p class="hidden">
+                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact">Contact No or Gmail *</label>
+                            <input type="text" id="contact" name="contact" required placeholder="Phone number or email address">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What is this about?">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">What do you want to say *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please tell us more about your inquiry..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="locations-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Presence</span>
+                <h2>Global Locations</h2>
+                <p>Visit our flagship stores and experience StepStyle in person</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Milan Store">
+                    </div>
+                    <div class="location-info">
+                        <h3>Milan Flagship</h3>
+                        <p>Via della Moda, 123<br>Milan, Italy 20121</p>
+                        <div class="location-details">
+                            <span><i class="fas fa-phone"></i> +39 02 1234 5678</span>
+                            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM-8PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Paris Store">
+                    </div>
+                    <div class="location-info">
+                        <h3>Paris Boutique</h3>
+                        <p>Rue de la Paix, 456<br>Paris, France 75001</p>
+                        <div class="location-details">
+                            <span><i class="fas fa-phone"></i> +33 1 42 34 56 78</span>
+                            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM-8PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="New York Store">
+                    </div>
+                    <div class="location-info">
+                        <h3>New York Flagship</h3>
+                        <p>5th Avenue, 789<br>New York, NY 10001</p>
+                        <div class="location-details">
+                            <span><i class="fas fa-phone"></i> +1 (212) 555-0123</span>
+                            <span><i class="fas fa-clock"></i> Mon-Sat: 10AM-8PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Help Center</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our products and services</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I find my correct shoe size?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We recommend using our comprehensive size guide, which includes detailed measurements and fitting instructions. You can also visit any of our stores for a professional fitting.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day return policy for unworn shoes in their original packaging. Returns are free for customers in the continental US and Europe.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I care for my StepStyle shoes?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Each pair comes with detailed care instructions. We recommend regular cleaning with our specially formulated leather care products and professional maintenance every 6-12 months.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer international shipping?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we ship to over 50 countries worldwide. Shipping costs and delivery times vary by location. All international orders include tracking and insurance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I customize my shoes?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a bespoke service for select styles, allowing you to choose materials, colors, and details. Contact our concierge service for more information.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What makes StepStyle shoes different?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our shoes are handcrafted by master artisans using traditional techniques and the world's finest materials. Each pair represents over 200 hours of meticulous craftsmanship.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StepStyle</h3>
+                    <p>Since 1987, crafting the world's most exquisite footwear with uncompromising attention to detail and timeless Italian artistry.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="shoes.html#classic">Classic Collection</a></li>
+                        <li><a href="shoes.html#boots">Luxury Boots</a></li>
+                        <li><a href="shoes.html#casual">Casual Collection</a></li>
+                        <li><a href="shoes.html#formal">Formal Collection</a></li>
+                        <li><a href="shoes.html#limited">Limited Edition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#heritage">Our Heritage</a></li>
+                        <li><a href="about.html#sustainability">Sustainability</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="onProgress.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="onProgress.html">Size Guide</a></li>
+                        <li><a href="onProgress.html">Care Instructions</a></li>
+                        <li><a href="onProgress.html">Shipping & Returns</a></li>
+                        <li><a href="onProgress.html">Warranty</a></li>
+                        <li><a href="onProgress.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2026 StepStyle. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="onProgress.html">Privacy Policy</a>
+                        <a href="onProgress.html">Terms of Service</a>
+                        <a href="onProgress.html">Cookie Policy</a>
+                    </div>
+                </div>
+                <div class="footer-crafted">
+                    <p>Crafted by <a href="https://github.com/SVishal111" target="_blank">SVishal111</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

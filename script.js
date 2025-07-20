@@ -74,39 +74,6 @@ faqItems.forEach(item => {
     });
 });
 
-const newsletterForm = document.querySelector('.newsletter-form');
-if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const email = this.querySelector('input[name="email"]').value;
-        if (!email) {
-            showNotification('Please enter your email address.', 'error');
-            return;
-        }
-        
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            showNotification('Please enter a valid email address.', 'error');
-            return;
-        }
-        
-        const submitBtn = this.querySelector('.newsletter-btn');
-        const originalText = submitBtn.textContent;
-        submitBtn.textContent = 'Subscribing...';
-        submitBtn.disabled = true;
-        
-        setTimeout(() => {
-            showNotification('Thank you for subscribing! You\'ll receive updates soon.', 'success');
-            
-            this.querySelector('input[name="email"]').value = '';
-            
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-        }, 1500);
-    });
-}
-
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
